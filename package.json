@@ -1,0 +1,13 @@
+{
+  "name": "keras-distributed-training-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Keras distributed training + Node/React monitoring starter",
+  "scripts": {
+    "api": "node src/server.js",
+    "train": "python src/train_distributed.py"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
